@@ -1,5 +1,5 @@
 import asyncHandler from "express-async-handler"
-import generateToken from "../utills/generateToken.js"
+import {generateToken} from "../utills/generateToken.js"
 import User from "../models/userModel.js"
 
 
@@ -177,5 +177,15 @@ const updateUser=asyncHandler(async(req,res)=>{
         throw new Error("User not found")
     }
  })
+
+
+//@desc     Register a new user
+//@route    POST /api/users
+//@access   Public
+
+const passwordResetLogin=asyncHandler(async(req,res)=>{
+    
+
+})
 
 export {authUser,getUserProfile,registerUser,updateUserProfile,getUsers,deleteUser,getUserById,updateUser}
