@@ -1,0 +1,273 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/screens/HomeScreen.js":
+/*!***********************************!*\
+  !*** ./src/screens/HomeScreen.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var _components_Product__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Product */ "./src/components/Product.js");
+/* harmony import */ var _components_Message__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Message */ "./src/components/Message.js");
+/* harmony import */ var _components_Loader__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Loader */ "./src/components/Loader.js");
+/* harmony import */ var _components_Paginate__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Paginate */ "./src/components/Paginate.js");
+/* harmony import */ var _components_ProductCarousel__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/ProductCarousel */ "./src/components/ProductCarousel.js");
+/* harmony import */ var _components_Meta__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Meta */ "./src/components/Meta.js");
+/* harmony import */ var _actions_productActions__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../actions/productActions */ "./src/actions/productActions.js");
+/* harmony import */ var _constants_productContants__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../constants/productContants */ "./src/constants/productContants.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+
+var _jsxFileName = "C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\src\\screens\\HomeScreen.js",
+    _s = __webpack_require__.$Refresh$.signature();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const HomeScreen = ({
+  match
+}) => {
+  _s();
+
+  const keyword = match.params.keyword;
+  const pageNumber = match.params.pageNumber || 1;
+  const dispatch = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["useDispatch"])();
+  const productList = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["useSelector"])(state => state.productList);
+  const {
+    loading,
+    error,
+    products,
+    pages,
+    page
+  } = productList;
+  const productAcending = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["useSelector"])(state => state.productAcending);
+  const {
+    loading: ascendingLoading,
+    error: ascendingError,
+    sortedProducts
+  } = productAcending;
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
+    dispatch(Object(_actions_productActions__WEBPACK_IMPORTED_MODULE_11__["listProducts"])(keyword, pageNumber));
+  }, [dispatch, keyword, pageNumber]);
+
+  const changeHandler = e => {
+    const sortingValue = e.target.value;
+
+    if (sortingValue === "From A-Z") {
+      dispatch(Object(_actions_productActions__WEBPACK_IMPORTED_MODULE_11__["listAscendingProducts"])());
+      dispatch(Object(_actions_productActions__WEBPACK_IMPORTED_MODULE_11__["listProducts"])({
+        type: _constants_productContants__WEBPACK_IMPORTED_MODULE_12__["PRODUCT_LIST_RESET"]
+      }));
+      return true;
+    } else {
+      return false;
+    }
+  };
+
+  const gameChanger = () => {
+    return kol;
+  };
+
+  let kol = false;
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_components_Meta__WEBPACK_IMPORTED_MODULE_10__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 8
+    }, undefined), !keyword ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_components_ProductCarousel__WEBPACK_IMPORTED_MODULE_9__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 21
+    }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      to: "/",
+      className: "btn btn-light",
+      children: "Go Back"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 43
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+      className: "homeScreen_heading",
+      children: "Latest Products"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 10
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("select", {
+      onChange: changeHandler,
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("option", {
+        children: "Sort by :"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 54,
+        columnNumber: 14
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("option", {
+        children: "From A-Z"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 55,
+        columnNumber: 14
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 10
+    }, undefined), ascendingLoading ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_components_Loader__WEBPACK_IMPORTED_MODULE_7__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 30
+    }, undefined) : ascendingError ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_components_Message__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      varitant: "danger",
+      children: ascendingError
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 59
+    }, undefined) : changeHandler ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 9
+    }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+      children: "false"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 9
+    }, undefined)]
+  }, void 0, true);
+};
+
+_s(HomeScreen, "AxYshcSzptcol0eBC3VPa+D8y9w=", false, function () {
+  return [react_redux__WEBPACK_IMPORTED_MODULE_3__["useDispatch"], react_redux__WEBPACK_IMPORTED_MODULE_3__["useSelector"], react_redux__WEBPACK_IMPORTED_MODULE_3__["useSelector"]];
+});
+
+_c = HomeScreen;
+/* harmony default export */ __webpack_exports__["default"] = (HomeScreen); // true
+// <>
+// <Row>
+//    {sortedProducts.map(sortedProduct=>(
+//        <Col key={sortedProduct._id} sm={12} md={6} lg={4} xl={3}>
+//                <Product product={sortedProduct} />
+//        </Col>
+//    ))}
+// </Row>
+// <Paginate pages={pages} page={page} keyword={keyword ? keyword : ""}/>
+// </> 
+// false
+// loading ? <Loader/>:error ? <Message varitant="danger">{error}</Message> : 
+//          <>
+//           <Row>
+//              {products.map(product=>(
+//                  <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
+//                          <Product product={product} />
+//                  </Col>
+//              ))}
+//          </Row>
+//          <Paginate pages={pages} page={page} keyword={keyword ? keyword : ""}/>
+//          </>
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "HomeScreen");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ })
+
+})
+//# sourceMappingURL=main.59a421d2eda24a31f102.hot-update.js.map

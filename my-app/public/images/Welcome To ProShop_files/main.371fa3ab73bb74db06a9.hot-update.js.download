@@ -1,0 +1,21 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/Product.js":
+false,
+
+/***/ "./src/components/ProductCarousel.js":
+false,
+
+/***/ "./src/screens/HomeScreen.js":
+/*!***********************************!*\
+  !*** ./src/screens/HomeScreen.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\src\\screens\\HomeScreen.js: Unexpected token (46:4)\n\n\u001b[0m \u001b[90m 44 | \u001b[39m    \u001b[36mconst\u001b[39m gameChanger\u001b[33m=\u001b[39m()\u001b[33m=>\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m 45 | \u001b[39m        kol\u001b[33m=\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 | \u001b[39m    }\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 | \u001b[39m    let kol\u001b[33m=\u001b[39m\u001b[36mfalse\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 48 | \u001b[39m    \u001b[36mreturn\u001b[39m (\u001b[0m\n\u001b[0m \u001b[90m 49 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at _temp._raise (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:748:17)\n    at _temp.raiseWithData (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:741:17)\n    at _temp.raise (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:735:17)\n    at _temp.unexpected (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:9097:16)\n    at _temp.parseExprAtom (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:10548:20)\n    at _temp.parseExprAtom (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:4759:20)\n    at _temp.parseExprSubscripts (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:10122:23)\n    at _temp.parseUpdate (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:10102:21)\n    at _temp.parseMaybeUnary (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:10091:17)\n    at _temp.parseExprOps (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:9961:23)");
+
+/***/ })
+
+})
+//# sourceMappingURL=main.371fa3ab73bb74db06a9.hot-update.js.map

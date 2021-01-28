@@ -1,0 +1,21 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/Product.js":
+false,
+
+/***/ "./src/components/ProductCarousel.js":
+false,
+
+/***/ "./src/screens/HomeScreen.js":
+/*!***********************************!*\
+  !*** ./src/screens/HomeScreen.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\src\\screens\\HomeScreen.js: Unexpected keyword 'return' (45:4)\n\n\u001b[0m \u001b[90m 43 | \u001b[39m    }\u001b[0m\n\u001b[0m \u001b[90m 44 | \u001b[39m    let \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 45 | \u001b[39m    \u001b[36mreturn\u001b[39m (\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 46 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 | \u001b[39m       \u001b[33m<\u001b[39m\u001b[33mMeta\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 48 | \u001b[39m        {\u001b[33m!\u001b[39mkeyword \u001b[33m?\u001b[39m \u001b[33m<\u001b[39m\u001b[33mProductCarousel\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m \u001b[33m:\u001b[39m \u001b[33m<\u001b[39m\u001b[33mLink\u001b[39m to\u001b[33m=\u001b[39m\u001b[32m\"/\"\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"btn btn-light\"\u001b[39m\u001b[33m>\u001b[39m\u001b[33mGo\u001b[39m \u001b[33mBack\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mLink\u001b[39m\u001b[33m>\u001b[39m }\u001b[0m\n    at _temp._raise (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:748:17)\n    at _temp.raiseWithData (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:741:17)\n    at _temp.raise (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:735:17)\n    at _temp.checkReservedWord (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:11351:12)\n    at _temp.parseIdentifierName (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:11323:12)\n    at _temp.parseIdentifier (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:11290:23)\n    at _temp.parseBindingAtom (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:9467:17)\n    at _temp.parseVarId (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:12337:20)\n    at _temp.parseVarId (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:3281:13)\n    at _temp.parseVar (C:\\Users\\ibraheem\\Desktop\\ProShop\\my-app\\node_modules\\@babel\\parser\\lib\\index.js:12313:12)");
+
+/***/ })
+
+})
+//# sourceMappingURL=main.59ebc8a92f835d3c47a8.hot-update.js.map
